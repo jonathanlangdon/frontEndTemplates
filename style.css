@@ -1,7 +1,16 @@
 @media (prefers-reduced-motion: no-preference) {
   * {
   scroll-behavior: smooth;
+  border: 1px solid black;
   }
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
